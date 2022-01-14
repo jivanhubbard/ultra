@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* body {
+    margin: 0px 90px;
+} */
+
+.header-container {
+    background-color: #1f2937;
+    padding: 10px 25px;
+    display: flex;
+}
+
+.header-logo img {
+    width: 250px;
+}
+
+.header-links {
+    display: flex;
+}
+
+.hero {
+    background: #1f2937;
+}
+
+.hero-container {
+    display: flex;
+}
+
+.hero-content {
+    margin: 100px;
+    max-width: 400px;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+}
+
+.hero-content p {
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.hero-img {
+    padding: 50px;
+}
+
+.content {
+    background: #fff;
+}
+
+.content h3 {
+    text-align: center;
+    padding: 30px;
+    font-size: 32px;
+}
+
+.content-container {
+    border: 1px solid mediumseagreen;
+    display: flex;
+}
+
+.content-block {
+    border: 1px solid magenta;
+}
+
+.block {
+    border: 2px solid #3b82f6;
+    padding: 100px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.copy {
+    text-align: center;
+}
+
+.copy p {
+    width: 
+}
+
+.newsletter {
+    
+}
+
+
+footer {
+    background: #1f2937;
+    color: #fff;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+/* button styles for the UI */
+
+.hero-content .btn {
+    background: #3b82f6;
+    padding: 10px 30px;
+    border: 0 solid #3b82f6;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-btn {
+    margin-top: 20px;
+}
