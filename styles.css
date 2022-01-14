@@ -15,25 +15,32 @@
 .header-container {
     background-color: #1f2937;
     padding: 10px 25px;
+}
+
+.header-container ul {
     display: flex;
+    justify-content: space-between;
 }
 
 .header-logo img {
-    width: 250px;
+    width: 90px;
+    height: auto;
 }
 
-.header-links {
-    display: flex;
-}
-
-.header-links li {
+.header-container li {
     list-style: none;
+    padding: 5px;
 }
 
-.header-links a {
+.header-container a:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.header-container a {
     color: white;
+    font-family: monospace;
     text-decoration: none;
-    list-style: none;
 }
 
 .hero {
@@ -42,11 +49,12 @@
 
 .hero-container {
     display: flex;
+    justify-content: center;
+    height: 450px;
 }
 
 .hero-content {
     margin: 100px;
-    max-width: 400px;
     color: white;
 }
 
@@ -60,7 +68,6 @@
 }
 
 .hero-img {
-    padding: 50px;
 }
 
 .content {
@@ -78,11 +85,13 @@
     display: flex;
     margin: 0 220px;
     padding-bottom: 90px;
+    justify-content: center;
+    gap: 25px;
 }
 
 .content-block {
     border: 1px solid magenta;
-    width: calc(25% - 0px);
+    flex: 0 1 0%;
 }
 
 .block {
@@ -131,6 +140,7 @@
     padding: 40px 50px;
     border-radius: 10px;
     color: white;
+    display: flex;
 }
 
 .btn {
@@ -146,6 +156,7 @@
 .btn:hover {
     background: white;
     color: #4488f6;
+    transition: all 500ms ease-in-out;
 }
 
 .newsletter-btn {
