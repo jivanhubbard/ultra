@@ -1,8 +1,6 @@
+console.log( (4 + 6 + 9) / 77 )
 
-console.log("bro")
+let x = 20
+let y = x++;
 
-let message = "heyooo";
-
-const myBirthday = "02.10.1987"
-
-alert(message);
+console.log(y);
